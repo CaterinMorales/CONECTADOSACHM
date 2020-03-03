@@ -1,0 +1,536 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200303.013033.32648.0.001.json",
+    "dumpEventTime": "2020-03-03T01:30:33Z",
+    "dumpEventTimeStamp": "1583209833668",
+    "processId": 32648,
+    "cwd": "C:\\Users\\Caterin Morales\\Desktop\\IONIC\\version 4\\conectadosachm",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Caterin Morales\\Desktop\\IONIC\\version 4\\conectadosachm\\node_modules\\jest-worker\\build\\workers\\processChild.js"
+    ],
+    "nodejsVersion": "v12.14.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.14.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.14.1/node-v12.14.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.14.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17763",
+    "osVersion": "Windows 10 Education",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 1093140,
+        "nice": 0,
+        "sys": 1403875,
+        "idle": 14898421,
+        "irq": 374828
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 767578,
+        "nice": 0,
+        "sys": 586218,
+        "idle": 16041375,
+        "irq": 11171
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 1103265,
+        "nice": 0,
+        "sys": 727750,
+        "idle": 15564156,
+        "irq": 9437
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 966890,
+        "nice": 0,
+        "sys": 618765,
+        "idle": 15809515,
+        "irq": 6953
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 1045843,
+        "nice": 0,
+        "sys": 763593,
+        "idle": 15585734,
+        "irq": 12921
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 712250,
+        "nice": 0,
+        "sys": 538625,
+        "idle": 16144296,
+        "irq": 6984
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 1134421,
+        "nice": 0,
+        "sys": 820859,
+        "idle": 15439890,
+        "irq": 10250
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz",
+        "speed": 2304,
+        "user": 860234,
+        "nice": 0,
+        "sys": 1138109,
+        "idle": 15396812,
+        "irq": 21312
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:0b",
+        "address": "fe80::6c06:8597:a339:ebdd",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:0b",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VirtualBox Host-Only Network #2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:0e",
+        "address": "fe80::4d27:62d5:deca:c5ea",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 14
+      },
+      {
+        "name": "VirtualBox Host-Only Network #2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:0e",
+        "address": "192.168.131.2",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "7c:2a:31:8b:23:0b",
+        "address": "fe80::6dba:ec66:2627:8521",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 18
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "7c:2a:31:8b:23:0b",
+        "address": "192.168.18.31",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "GluGlu"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff689841759",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff689845b7c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff689844b38",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68993433b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a138c5e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a120ca1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff689fee56c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff689ff6671",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff689febcd3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff689fea4a4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a00b775",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff689d77a49",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a56463d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4dfdf4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a5ca943",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4e41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4e41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4e41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4e41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4e41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4e41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4e41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4e41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4e41cc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4e1781",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a4e136c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a046c53",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a0465d6",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a11784b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68995ac1e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68995aec7",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff689959d9a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6898fc725",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68995a8b3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68981674c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff68a617728",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffcc9137974",
+      "symbol": "BaseThreadInitThunk+20"
+    },
+    {
+      "pc": "0x00007ffccbf3a271",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 3162112,
+    "totalCommittedMemory": 3162112,
+    "usedMemory": 2476608,
+    "availableMemory": 2118336744,
+    "memoryLimit": 2120220672,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047472,
+        "available": 16
+      },
+      "old_space": {
+        "memorySize": 1159168,
+        "committedMemory": 1159168,
+        "capacity": 993880,
+        "used": 992776,
+        "available": 1104
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 152064,
+        "used": 152064,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 252000,
+        "used": 252000,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 0.062,
+    "kernelCpuSeconds": 0.031,
+    "cpuConsumptionPercent": 9.3,
+    "maxRss": 19869696,
+    "pageFaults": {
+      "IORequired": 5039,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 98
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "allusersprofile": "C:\\ProgramData",
+    "appdata": "C:\\Users\\Caterin Morales\\AppData\\Roaming",
+    "BROWSERSLIST_IGNORE_OLD_DATA": "1",
+    "commonprogramfiles": "C:\\Program Files\\Common Files",
+    "commonprogramfiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "commonprogramw6432": "C:\\Program Files\\Common Files",
+    "computername": "GLUGLU",
+    "comspec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\Caterin Morales\\Desktop\\IONIC\\version 4\\conectadosachm\\node_modules\\.bin\\",
+    "driverdata": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FORCE_COLOR": "1",
+    "force_color": "1",
+    "fps_browser_app_profile_string": "Internet Explorer",
+    "fps_browser_user_profile_string": "Default",
+    "homedrive": "C:",
+    "homepath": "\\Users\\Caterin Morales",
+    "ionic_cli_bin": "C:\\Users\\Caterin Morales\\AppData\\Roaming\\npm\\node_modules\\ionic\\bin\\ionic",
+    "ionic_cli_lib": "C:\\Users\\Caterin Morales\\AppData\\Roaming\\npm\\node_modules\\ionic",
+    "ionic_cli_local_error": "LOCAL_CLI_NOT_FOUND",
+    "JEST_WORKER_ID": "7",
+    "lang": "en_US.UTF-8",
+    "localappdata": "C:\\Users\\Caterin Morales\\AppData\\Local",
+    "logonserver": "\\\\GLUGLU",
+    "number_of_processors": "8",
+    "onedrive": "C:\\Users\\Caterin Morales\\OneDrive",
+    "os": "Windows_NT",
+    "path": "C:\\Users\\Caterin Morales\\Desktop\\IONIC\\version 4\\conectadosachm\\node_modules\\.bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\LLVM\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\Caterin Morales\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Caterin Morales\\AppData\\Local\\atom\\bin;C:\\Users\\Caterin Morales\\AppData\\Roaming\\npm;C:\\Users\\Caterin Morales\\AppData\\Local\\Android\\Sdk;C:\\Users\\Caterin Morales\\AppData\\Roaming\\npm\\node_modules;C:\\Users\\Caterin Morales\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\Java\\jre1.8.0_241\\bin;C:\\Users\\Caterin Morales\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.2;C:\\Gradle\\gradle-6.1\\bin;C:\\Program Files\\Java\\jdk1.8.0_241\\bin;C:\\Users\\Caterin Morales\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Caterin Morales\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Caterin Morales\\AppData\\Local\\GitHubDesktop\\bin",
+    "pathext": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "processor_architecture": "AMD64",
+    "processor_identifier": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "processor_level": "6",
+    "processor_revision": "9e0a",
+    "programdata": "C:\\ProgramData",
+    "programfiles": "C:\\Program Files",
+    "programfiles(x86)": "C:\\Program Files (x86)",
+    "programw6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "psmodulepath": "C:\\Users\\Caterin Morales\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "public": "C:\\Users\\Public",
+    "sessionname": "Console",
+    "systemdrive": "C:",
+    "systemroot": "C:\\WINDOWS",
+    "temp": "C:\\Users\\CATERI~1\\AppData\\Local\\Temp",
+    "term_program": "platformio-ide-terminal",
+    "tmp": "C:\\Users\\CATERI~1\\AppData\\Local\\Temp",
+    "userdomain": "GLUGLU",
+    "userdomain_roamingprofile": "GLUGLU",
+    "username": "Caterin Morales",
+    "userprofile": "C:\\Users\\Caterin Morales",
+    "vbox_msi_install_path": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "WEBPACK_DEV_SERVER": "true",
+    "windir": "C:\\WINDOWS",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}

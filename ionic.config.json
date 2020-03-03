@@ -1,5 +1,7 @@
 {
   "name": "conectadosachm",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
